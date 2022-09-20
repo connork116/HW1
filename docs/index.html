@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Connor King CPSC 322 Web Development</title>
+    <style>
+        g {
+            color: green;
+        }
+    </style>
+
+</head>
+
+<body>
+    <h1 id="h1">This is my HW1 Submission</h1>
+
+    <p id="p1">
+        I hope to learn more about the internet, and how websites work. I have always been interested in what is
+        happening "under the hood" when I visit a website. <g>I hope to gain more knowledge about the <em>sructure</em>
+            of
+            websites
+            and the <strong>tools</strong> used to make them.</g>
+    </p>
+    <button onclick="clickButton()">Click Me</button>
+    <script>
+        function clickButton() {
+            var button = document.getElementById("h1");
+            button.click()
+            button.style.color = "red"
+        }
+    </script>
+
+    <img src="meme.jpg">
+    <a href="https://memeshappen.com/meme/10241/since-when-you-become-an-expert-in-html">Link to website where image was
+        found</a>
+</body>
+
+</html>
